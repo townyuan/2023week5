@@ -1,5 +1,13 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+
+@import "/node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+
+@import "./base/base"; // 全站設定
+@import "./helpers/material-icons"; // Material icnos
+
+@import "/node_modules/bootstrap/scss/bootstrap"; //截入完整的 Bootstrap CSS
 
 
 @import './pages/index.scss';
+@import './layout/header.scss';
+@import './layout/footer.scss';
