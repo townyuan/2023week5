@@ -1,0 +1,30 @@
+.main{
+  margin-left: 328px;
+  margin-right: 32px;
+}
+
+.modal{
+  border: 0;
+  border-radius: 0;
+}
+
+
+/* admin detail collapse */
+.collapsed .expand_more{
+  display: inline-block;
+}
+.collapsed .expand_less{
+  display: none;
+}
+.expand_more{
+  display: none;
+}
+.expand_less{
+  display: inline-block;
+}
+
+/* CKEditor */
+.ck-editor{
+  display: none;
+}
+

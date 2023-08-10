@@ -1,0 +1,26 @@
+@import "https://fonts.google.com/specimen/roboto+mono?query=robo";
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.font-mono{
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+/* link hover color */
+.link-dark{
+  &:hover{
+    color: $success;
+  }
+  span:hover{
+    color: $success;
+  }
+}
+
+
+/* font size*/
+.fs-7{
+  font-size: 12px;
+}

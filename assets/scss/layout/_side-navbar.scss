@@ -1,6 +1,36 @@
 .side-navbar{
   /* 用 position: fixed; 可以固定住側欄 */
   position: fixed;
-  min-width: 200px;
+  min-width: 296px;
   min-height: 100vh;
 }
+
+.nav-link.active{
+  color: $success;
+  &::before{
+    content: "";
+    border-left: 4px solid $success;
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+  }
+}
+
+.nav-link:hover{
+  &::before{
+    content: "";
+  border-left: 4px solid $success;
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  }
+}
+
+.list-group-item.active{
+  background-color: $gray-100;
+  color: $dark;
+  border: 1px solid $gray-300;
+}
+
